@@ -1,0 +1,28 @@
+. {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    font-size: 27px;
+}
+
+header h1 {
+    font-style: bold;
+    color: blue;
+}
+
+header p {
+    color:aqua;
+}
+
+main container {
+    box-sizing: border-box;
+}
+
+div card cor-nome {
+    color: blue;
+    background-color: white;
+}
