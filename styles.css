@@ -4,6 +4,37 @@
     box-sizing: border-box;
 }
 
+/* paleta de cores */
+:root {
+    --cor-primaria: #1abc9c;
+    --cor-secundaria: #2ecc71;
+    --cor-terciaria: #3498db;
+    --cor-acento: #e74c3c;
+    --cor-neutra: #95a5a6;
+}
+
+/*tipografia*/
+:root {
+    --peso-light: 300;
+    --peso-normal: 400;
+    --peso-bold: 700;
+}
+
+/*tamanho-letra*/
+:root {
+    --pequeno: 14px;
+    --medio: 16px;
+    --grande: 18px;
+    --ex-grande: 24px;
+}
+
+/*espacamento-texto*/
+:root {
+    --linha-compacta: line-height: 1.2;
+    --linha-normal: line-height: 1.5;
+    --linha-ampla: line-height: 2.0;
+}
+
 header {
     text-align: center;
     font-size: 27px;
@@ -50,27 +81,106 @@ div exemplo-grid {
     background-color: hsl(48, 89%, 60%);
 }
 
-.card-item.cor-primaria {
+.cor-item.cor-primaria {
     color: blue;
     background-color: var(--cor-primaria);
 }
 
-.card-item.cor-secundaria {
+.cor-item.cor-secundaria {
     color: blue;
     background-color: var(--cor-secundaria);
 }
 
-.card-item.cor-terciaria {
+.cor-item.cor-terciaria {
     color: blue;
     background-color: var(--cor-terciaria);
 }
 
-.card-item.cor-acento {
+.cor-item.cor-acento {
     color: blue;
     background-color: var(--cor-acento);
 }
 
-.card-item.cor-neutra {
+.cor-item.cor-neutra {
     color: blue;
     background-color: var(--cor-neutra);
+}
+
+.tipo-expemplo.tipo-roboto {
+    font-family: 'Roboto', sans-serif;
+    font-weight: var(--peso-normal);
+}
+
+.peso-light {
+    font-weight: var(--peso-light);
+}
+
+.peso-normal {
+    font-weight: var(--peso-normal);
+}
+
+.peso-bold {
+    font-weight: var(--peso-bold);
+}
+
+.tipo-expemplo.tipo-playfair {
+    font-family: 'Playfair Display', serif;
+    font-weight: var(--peso-bold);
+}
+
+.tamanho-14 {
+    font-size: var(--pequeno);
+}
+
+.tamanho-16 {
+    font-size: var(--medio);
+}
+
+.tamanho-18 {
+    font-size: var(--grande);
+}
+
+.tamanho-24 {
+    font-size: var(--ex-grande);
+}
+
+.linha-compacta {
+    line-height: var(--linha-compacta);
+}
+
+.linha-normal {
+    line-height: var(--linha-normal);
+}
+
+.linha-ampla {
+    line-height: var(--linha-ampla);
+}
+
+.card.bg-cor {
+    background-color: yellow;
+    color: black;
+}
+
+.gradiente-item.grad-linear-2 {
+    background: linear-gradient(to right, #667eea, #764ba2);
+}
+
+.gradiente-item.grad-linear-3 {
+    background: linear-gradient(to right, #f093fb, #f5576c, #ffd140);
+}
+
+.gradiente-item.grad-linear-diagonal {
+    background: linear-gradient(45deg, #FA8BFF, #2BD2FF, #2BFF88);
+}
+
+.gradiente-item.grad-radial {
+    background: radial-gradient(circle, #667eea, #764ba2);
+}
+
+.gradiente-item.grad-complexo {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%)
+}
+
+.gradiente-item.grad-radial-complexo {
+    background: radial-gradient(circle at top left, #FA8BFF, #2BD2FF, #2BFF88);
 }
