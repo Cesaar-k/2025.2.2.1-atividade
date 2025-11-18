@@ -22,7 +22,55 @@ main container {
     box-sizing: border-box;
 }
 
-div card cor-nome {
+div exemplo-grid {
+    box-sizing: border-box;
+}
+
+.card.cor-nome {
     color: blue;
-    background-color: white;
+    background-color: red;
+}
+.card.cor-hex {
+    color: blue;
+    background-color: #3498db;
+}
+
+.card.cor-rgb {
+    color: blue;
+    background-color: rgb(46, 204, 113);
+}
+
+.card.cor-rgba {
+    color: blue;
+    background-color: rgba(155, 89, 182, 0.7);
+}
+
+.card.cor-hsl {
+    color: blue;
+    background-color: hsl(48, 89%, 60%);
+}
+
+.card-item.cor-primaria {
+    color: blue;
+    background-color: var(--cor-primaria);
+}
+
+.card-item.cor-secundaria {
+    color: blue;
+    background-color: var(--cor-secundaria);
+}
+
+.card-item.cor-terciaria {
+    color: blue;
+    background-color: var(--cor-terciaria);
+}
+
+.card-item.cor-acento {
+    color: blue;
+    background-color: var(--cor-acento);
+}
+
+.card-item.cor-neutra {
+    color: blue;
+    background-color: var(--cor-neutra);
 }
