@@ -1,4 +1,5 @@
-. {
+/* reset CSS */
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -53,6 +54,7 @@ main container {
     box-sizing: border-box;
 }
 
+/* Cores CSS */
 div exemplo-grid {
     box-sizing: border-box;
 }
@@ -81,6 +83,7 @@ div exemplo-grid {
     background-color: hsl(48, 89%, 60%);
 }
 
+/* Paleta CSS */
 .cor-item.cor-primaria {
     color: blue;
     background-color: var(--cor-primaria);
@@ -106,6 +109,7 @@ div exemplo-grid {
     background-color: var(--cor-neutra);
 }
 
+/* Tipografia CSS */
 .tipo-expemplo.tipo-roboto {
     font-family: 'Roboto', sans-serif;
     font-weight: var(--peso-normal);
@@ -156,11 +160,7 @@ div exemplo-grid {
     line-height: var(--linha-ampla);
 }
 
-.card.bg-cor {
-    background-color: yellow;
-    color: black;
-}
-
+/* Gradientes CSS */
 .gradiente-item.grad-linear-2 {
     background: linear-gradient(to right, #667eea, #764ba2);
 }
@@ -183,4 +183,25 @@ div exemplo-grid {
 
 .gradiente-item.grad-radial-complexo {
     background: radial-gradient(circle at top left, #FA8BFF, #2BD2FF, #2BFF88);
+}
+
+/* Background para a seção "Backgrounds" (aplica-se sem mexer no HTML) */
+.secao#backgrounds {
+    background-image: url('https://png.pngtree.com/png-clipart/20210311/original/pngtree-give-a-thumbs-up-png-image_6028695.jpg');
+    background-size: hidden;
+    background-position: right;
+    background-repeat: no-repeat;
+    min-height: 320px;
+    color: #0e0c0c;
+    position: relative;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    padding: 40px 20px;
+    text-align: left;
+}
+
+.card.bg-cor {
+    background-color: yellow;
+    color: black;
 }

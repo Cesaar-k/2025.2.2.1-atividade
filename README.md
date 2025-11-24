@@ -19,7 +19,7 @@ Trabalhar com elementos visuais e design utilizando CSS3, explorando sistemas de
     - [ ] Abrir o projeto no editor de código
   - ou
     - [X] Usar o codespace para edição
-- [ ] Construir a programação visual em style.css de acordo com as indicações abaixos
+- [X] Construir a programação visual em style.css de acordo com as indicações abaixos
 
 ### 2. Sistemas de Cores em CSS
 - [X] **2.1** Aplicar cores usando nomes de cores (ex: `red`, `blue`, `green`)
@@ -35,23 +35,23 @@ Trabalhar com elementos visuais e design utilizando CSS3, explorando sistemas de
 - [X] **3.3** Usar `font-weight` para variar a espessura da fonte (normal, bold, 100-900)
 - [X] **3.4** Ajustar espaçamento entre linhas com `line-height`
 - [X] **3.5** Implementar Google Fonts no projeto
-- [ ] **3.6** Usar pelo menos 2 fontes diferentes do Google Fonts
-- [ ] **3.7** Aplicar outros estilos tipográficos (font-style, text-decoration, text-transform)
+- [X] **3.6** Usar pelo menos 2 fontes diferentes do Google Fonts
+- [X] **3.7** Aplicar outros estilos tipográficos (font-style, text-decoration, text-transform)
 
 ### 4. Backgrounds
-- [ ] **4.1** Aplicar `background-color` em diferentes elementos
-- [ ] **4.2** Adicionar `background-image` usando URLs de imagens
-- [ ] **4.3** Controlar o tamanho da imagem de fundo com `background-size` (cover, contain, valores específicos)
-- [ ] **4.4** Posicionar imagens de fundo com `background-position` (center, top, bottom, left, right)
-- [ ] **4.5** Usar `background-repeat` (no-repeat, repeat-x, repeat-y)
-- [ ] **4.6** Combinar múltiplas propriedades de background
+- [X] **4.1** Aplicar `background-color` em diferentes elementos
+- [X] **4.2** Adicionar `background-image` usando URLs de imagens
+- [X] **4.3** Controlar o tamanho da imagem de fundo com `background-size` (cover, contain, valores específicos)
+- [X] **4.4** Posicionar imagens de fundo com `background-position` (center, top, bottom, left, right)
+- [X] **4.5** Usar `background-repeat` (no-repeat, repeat-x, repeat-y)
+- [X] **4.6** Combinar múltiplas propriedades de background
 
 ### 5. Gradientes CSS
-- [ ] **5.1** Criar um gradiente linear com 2 cores (`linear-gradient`)
-- [ ] **5.2** Criar um gradiente linear com 3 ou mais cores
-- [ ] **5.3** Criar um gradiente linear em diferentes direções (to right, to bottom, 45deg)
-- [ ] **5.4** Criar um gradiente radial (`radial-gradient`)
-- [ ] **5.5** Experimentar com gradientes complexos e múltiplas paradas de cor
+- [X] **5.1** Criar um gradiente linear com 2 cores (`linear-gradient`)
+- [X] **5.2** Criar um gradiente linear com 3 ou mais cores
+- [X] **5.3** Criar um gradiente linear em diferentes direções (to right, to bottom, 45deg)
+- [X] **5.4** Criar um gradiente radial (`radial-gradient`)
+- [X] **5.5** Experimentar com gradientes complexos e múltiplas paradas de cor
 
 ### 6. Integração e Finalização
 - [ ] **6.1** Criar uma página HTML completa aplicando todos os conceitos
